@@ -1,27 +1,34 @@
-# BlogPessoal
+# Blog Pessoal 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.3.
 
-## Development server
+# Sobre o projeto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Blog Pessoal é uma aplicação full stack web e mobile construída durante o bootcamp de desenvolvimento Java da Generation Brasil.
 
-## Build
+Este repositório contém o front-end do projeto blog pessoal, ou seja, toda a estilização das páginas de cadastro, login e postagens, onde os dados do usuário são coletados e enviados à aplicação back-end para serem gravados no banco de dados, possibilitando que o usuário cadastre-se, faça login e escreva novas postagens.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Layout mobile
+![Mobile 1]() ![Mobile 2]()
 
-## Running unit tests
+## Layout web
+![Web 1]()
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![Web 2]()
 
-## Running end-to-end tests
+## Modelo conceitual
+![Modelo Conceitual]()
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+# Tecnologias utilizadas
 
-## Further help
+## Implantação em produção
+- Back end: Heroku
+- Front end web: 
+- Banco de dados: Postgresql
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Autor
+
+Kaique Mota Carvalho
+
+https://www.linkedin.com/in/kaique-mota-424ab5214/
