@@ -8,6 +8,6 @@ export class Postagem{
     public texto: string
     public datatempo: Date
     public curtidas: number
-    public tb_usuarios: Usuario
+    public usuario: Usuario
     public tema: Tema
 }
