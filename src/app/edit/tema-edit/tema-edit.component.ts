@@ -34,4 +34,11 @@ export class TemaEditComponent implements OnInit {
     })
   }
 
+  atualizar(){
+    this.temaService.putTema(this.tema).subscribe((resp: Tema)=>{
+      this.tema = resp
+      alert('Tema atualizado com sucesso!!')
+      this.router.navigate(['/tema'])
+    })
+  }
 }
